@@ -1,0 +1,86 @@
+/******************************************
+/* CSS
+/*******************************************/
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700&display=swap");
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(./dragons.jpg);
+  color: antiquewhite;
+  font-family: "EB Garamond", serif;
+}
+/******************************************
+  /* LAYOUT
+  /*******************************************/
+.container {
+  width: 1400px;
+  margin: 100px 100px;
+}
+/******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+h1 {
+  font-size: 80px;
+  font-family: "Lobster", cursive;
+}
+h1,
+.info {
+  margin-bottom: 50px;
+}
+h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-family: "Lobster", cursive;
+  color: rgb(241, 54, 92);
+}
+h3 {
+  font-size: 26px;
+}
+ul > li {
+  font-size: 22px;
+  list-style: none;
+}
+button {
+  text-transform: uppercase;
+  color: rgb(241, 54, 92);
+  background-color: #131e1e;
+  cursor: pointer;
+  outline: none;
+}
+input {
+  width: 300px;
+}
+button,
+input {
+  padding: 10px 10px;
+}
+p {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+a {
+  text-decoration: none;
+  color: rgb(241, 54, 92);
+}
+.info-two {
+  display: flex;
+  gap: 40px;
+}
+.school,
+.level,
+.spell-school {
+  font-size: 30px;
+  /* color: rgb(241, 54, 92); */
+}
+.school-info {
+  margin-top: 40px;
+}
+.school-info > ul {
+  width: 50%;
+}
