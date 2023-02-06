@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dungeons and Dragons</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        Which Spell <br />
+        do you want to check?
+      </h1>
+      <p>
+        Make sure if there is space between words to include hypen, <br />
+        example bellow in input field. <br />
+        Here is list of all available
+        <a
+          href="https://dungeons.fandom.com/wiki/List_of_Spells#A"
+          target="_blank"
+          >spells</a
+        >
+        if you are new to D&D.
+      </p>
+      <br />
+      <div class="info">
+        <input
+          type="text"
+          name=""
+          value=""
+          placeholder="vampiric-touch, acid-arrow, fireball"
+        />
+        <button type="button" name="button">Get Spell Data</button>
+      </div>
+      <h2>Spell Name</h2>
+      <div class="info-two">
+        <div class="classes-info">
+          <h3>Classes?</h3>
+          <ul id="classes"></ul>
+        </div>
+        <div class="subclasses-info">
+          <h3>Subclasses?</h3>
+          <ul id="subclasses"></ul>
+        </div>
+        <div class="spell-school">
+          <h3>Spell School?</h3>
+          <ul id="spellSchool"></ul>
+        </div>
+      </div>
+      <div class="school-info">
+        <p class="school"></p>
+        <p class="level"></p>
+        <p class="dmg"></p>
+        <ul id="description"></ul>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
