@@ -1,7 +1,10 @@
 document.querySelector("button").addEventListener("click", getSpell);
 
 function getSpell() {
-  const spellName = document.querySelector("input").value.toLowerCase();
+  const spellName = document
+    .querySelector("input")
+    .value.toLowerCase()
+    .replace(" ", "-");
   const url = `https://www.dnd5eapi.co/api/spells/${spellName}`;
 
   document.querySelector("#classes").innerHTML = "";
