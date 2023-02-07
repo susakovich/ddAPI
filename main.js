@@ -4,6 +4,7 @@ function getSpell() {
   const spellName = document
     .querySelector("input")
     .value.toLowerCase()
+    .trim()
     .replace(" ", "-");
   const url = `https://www.dnd5eapi.co/api/spells/${spellName}`;
 
