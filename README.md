@@ -2,13 +2,13 @@
 
 Dungeons and Dragons Spell API
 Overview
-This API provides information on spells in the Dungeons and Dragons world. You can enter a spell name with hyphens between words, and the API will give you information such as the spell's description, level, school of magic, and the classes and subclasses that have access to the spell.
+This API provides information on spells in the Dungeons and Dragons world. You can enter a spell name, and the API will give you information such as the spell's description, level, school of magic, and the classes and subclasses that have access to the spell.
 
 Usage
 To use this API, make a GET request to the following endpoint:
 
 https://www.dnd5eapi.co/api/spells/${spellName}
-Replace {spellName} with the name of the spell you want to search for, with hyphens between words.
+Replace {spellName} with the name of the spell you want to search for.
 
 Response
 The API will return a JSON object with the following properties:
